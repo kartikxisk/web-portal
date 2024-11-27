@@ -1,1 +1,38 @@
-// app global css in SCSS form
+.wp-header {
+  background-color: #ffffff;
+
+  .q-toolbar {
+    padding: 0px;
+    min-height: 60px;
+    padding: 10px 20px;
+  }
+
+}
+
+
+
+.wp-main-drawer {
+  .q-item {
+    min-height: 20px;
+    font-weight: 500;
+    font-size: 13px;
+    border-radius: 5px;
+    padding: 8px 16px;
+  }
+
+  .q-item__section--avatar {
+    min-width: fit-content;
+  }
+
+  .q-expansion-item__container {
+    .q-item {
+      padding: 5px 16px;
+    }
+  }
+.group-title{
+padding: 8px 4px;
+color: #727272;
+font-size: 13px;
+}
+
+}
